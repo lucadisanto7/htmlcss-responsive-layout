@@ -63,7 +63,7 @@ header{
     margin-top: 50px;
 }
 .logo{
-    width: 50%;
+    width: 80px;
     vertical-align: middle;  
 }
 .icon-container{
@@ -102,16 +102,28 @@ h3{
 .white-text{
     color: white;
 }
+.black-text{
+    color: black;
+}
 .subtitle{
     text-align: center;
 }
-
+ul{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
 /* END OF STYLING */
 
 
 
 /* LABELS */
 
+.head-label{
+    border-radius: 30px;
+    padding: 10px 15px;
+}
 .label-container, .text{
     padding: 0px 25px;
 }
@@ -122,9 +134,39 @@ h3{
 .label-bg-blue{
     background-color: #0085fc;
 }
-
+.label-bg-white{
+    background-color: white;
+}
 /* END OF LABELS */
 
 
 
 /* MEDIA QUERIES */
+@media screen and (min-width: 768px){
+    .col-66-md{
+        width: calc(100% / 3 * 2);
+    }
+    .col-33-md{
+        width: calc(100% / 3);
+
+    }
+    .card-img{
+        width: 50%;
+        display: flex;
+        margin: 0 30px;
+        margin-top: 50px;
+    }
+}
+@media screen and (min-width: 1200px){
+    ul{
+        display: block;
+        list-style-type: none;
+        display: flex;
+        gap: 30px;
+        padding-top: 10px;
+        float: right;
+    }
+    .content > i{
+        display: none;
+    }
+}
