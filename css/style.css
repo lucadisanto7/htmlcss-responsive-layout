@@ -6,6 +6,9 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+
+
 /* LAYOUT */
 .row{
     display: flex;
@@ -17,27 +20,38 @@ body{
 .col-50{
     width: 50%;
 }
+/* END OF LAYOUT */
+
+
+
 /* STYLING */
+
+/* CONTENT STYLING */
 header{
     background-color: #0085fc;
     padding: 15px;
+    margin-bottom: 50px;
 }
 .content{
-    width: 100%;   
+    width: 100%; 
 }
 .card{
     border-radius: 5%;
     background-color: #b5dcfe;
-    margin: 60px 30px 10px 30px;
-}
-h3{
-    font-size: 25px;
-    padding: 30px 25px;
-    color: #0085fc;
+    margin: 20px 30px 10px 30px;
 }
 .float-end{
     float: right; 
 }
+.mg-100-bot{
+    margin-bottom: 100px;
+}
+/* END OF CONTENT STYLING */
+
+
+
+/* IMG STYLING */
+
 .bars{
     font-size: 30px; 
     padding-top: 5px;  
@@ -48,19 +62,56 @@ h3{
     margin: auto;
     margin-top: 50px;
 }
-.white-text{
-    color: white;
-}
 .logo{
     width: 50%;
     vertical-align: middle;  
 }
-.text{
-    margin-bottom: 50px;
+.icon-container{
+    display: flex;
+    justify-content: center;
+}
+.file-logo{
+    font-size: 90px;
+    color: #0085fc;
+    margin-top: 40px;
+}
+
+/* END IMG STYLING */
+
+
+/* TEXT STYLING */
+
+h3{
+    font-size: 25px;
+    padding: 30px 25px;
+    color: #0085fc;
+}
+.text, .text-2{
     line-height: 2;
     color: #5a6f7e;
     font-size: 15px;
 }
+.text{
+    margin-bottom: 50px;
+}
+.text-2{
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0px 30px;
+}
+.white-text{
+    color: white;
+}
+.subtitle{
+    text-align: center;
+}
+
+/* END OF STYLING */
+
+
+
+/* LABELS */
+
 .label-container, .text{
     padding: 0px 25px;
 }
@@ -71,3 +122,9 @@ h3{
 .label-bg-blue{
     background-color: #0085fc;
 }
+
+/* END OF LABELS */
+
+
+
+/* MEDIA QUERIES */
