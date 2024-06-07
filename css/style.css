@@ -47,6 +47,9 @@ header{
 .pd-30-bot{
     padding-bottom: 30px
 }
+.pd-60-bot{
+    padding-bottom: 60px
+}
 .pd-25-left{
     padding-left: 25px;
 }
@@ -147,6 +150,9 @@ h3{
 .padding-25-30{
     padding: 25px 30px;
 }
+.padding-0-25{
+    padding: 0px 25px;
+}
 h4{
     font-size: 30px;
     padding: 30px 25px;
@@ -177,6 +183,9 @@ h4{
 .purple-text{
     color: #9692e5;
 }
+.yellow-text{
+    color: #fcc05f;
+}
 .grey-text{
     color: rgba(255, 255, 255, 0.603);
 }
@@ -189,7 +198,7 @@ h4{
 ul{
     display: none;
 }
-a{
+.none{
     text-decoration: none;
 }
 h5{
@@ -201,12 +210,16 @@ h5{
 .font-size-50{
     font-size: 50px;
 }
+.font-size-60{
+    font-size: 60px;
+}
 .white-bg{
     background-color: white;
 }
 .line-height{
     line-height: 1.5;
 }
+
 /* END OF TEXT STYLING */
 
 
@@ -224,9 +237,14 @@ h5{
 .label-container-2{
     padding: 0px 25px 45px 25px;
 }
+
 .label{
     border-radius: 30px;
     padding: 10px 40px;    
+}
+.label-2{
+    border-radius: 30px;
+    padding: 20px 60px; 
 }
 .label-bg-blue{
     background-color: #0085fc;
@@ -265,6 +283,10 @@ h5{
     }
     .col-40-md{
         width: 40%;
+    }
+    .container-sm{
+        max-width: 500px;
+        margin: 0 auto;
     }
     /* END OF LAYOUT */
     
