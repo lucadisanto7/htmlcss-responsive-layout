@@ -200,6 +200,8 @@ h4{
 }
 .subtitle{
     text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 ul{
     display: none;
@@ -426,8 +428,8 @@ h5{
     .min-height{       
         min-height: 365px;        
     }
-    .mg-300-top{
-        margin-top: 300px;
+    .mg-360-top{
+        margin-top: 360px;
     }
     .width-100{
         width: 100%;
