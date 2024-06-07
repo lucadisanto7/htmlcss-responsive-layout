@@ -50,6 +50,9 @@ header{
 .pd-25-left{
     padding-left: 25px;
 }
+.mg-20-top{
+    margin-top: 20px;
+}
 .mg-50-top{
     margin-top: 50px;
 }
@@ -66,6 +69,14 @@ header{
     }
 .bg-purple{        
     background-color: #9692e5;
+}
+.relative-container{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    top: 20px;
+    left: 150px;
 }
     /* END OF CONTENT STYLING */
 
@@ -166,6 +177,9 @@ h4{
 .purple-text{
     color: #9692e5;
 }
+.grey-text{
+    color: rgba(255, 255, 255, 0.603);
+}
 .font-size-13{
     font-size: 14px;
 }
@@ -189,6 +203,9 @@ h5{
 }
 .white-bg{
     background-color: white;
+}
+.line-height{
+    line-height: 1.5;
 }
 /* END OF TEXT STYLING */
 
@@ -243,6 +260,12 @@ h5{
     .col-50-md{
         width: 50%;
     }
+    .col-60-md{
+        width: 60%;
+    }
+    .col-40-md{
+        width: 40%;
+    }
     /* END OF LAYOUT */
     
     
@@ -293,6 +316,12 @@ h5{
     .left{
         text-align: left;
         margin:0px 20px;
+    }
+    .mg-60-top{
+        margin-top: 60px;
+    }
+    .mg-20-left{
+        margin-left: 20px;
     }
 
     /* END OF STYLING */
